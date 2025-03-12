@@ -1,17 +1,22 @@
 # azure-vm-assignment
-Assignment: Set Up an Azure Virtual Machine 
-Objective
+#Assignment: Set Up an Azure Virtual Machine 
+
+*Objective
+
 Create a basic Azure infrastructure using a free Azure account. This infrastructure should include:
-An Azure Virtual Machine (Windows Server)
-A Public IP Address for RDP access
-A Virtual Network with a default subnet
-An Azure Disk attached to the VM
-All resources grouped under a single Resource Group
-Steps to Complete
+
+*An Azure Virtual Machine (Windows Server)
+*A Public IP Address for RDP access
+*A Virtual Network with a default subnet
+*An Azure Disk attached to the VM
+*All resources grouped under a single Resource Group
+#Steps to Complete
+
 1- Create a Resource Group
 Use the Azure Portal to create a new Resource Group.
 ![resource1](https://github.com/user-attachments/assets/cb6331c1-73b1-4da8-bfb7-1cbc3056272f)
 
+---------------------------------------------------------------------------------------------------------------
 2- Set Up a Virtual Network
 
 Create a Virtual Network with a default subnet.
@@ -21,11 +26,13 @@ Create a Virtual Network with a default subnet.
 ![vnetwork4](https://github.com/user-attachments/assets/825cd504-12c6-4ffb-bcdf-73a923ebd7b8)
 ![vnetwork5](https://github.com/user-attachments/assets/4e80911e-02e1-4205-b435-fccad7d5c22f)
 
+---------------------------------------------------------------------------------------------------------------
 3- Deploy a Windows Virtual Machine
 
 Choose a free-tier eligible Windows Server.
 Assign a Public IP for RDP access.
 Place the VM in the previously created Virtual Network.
+
 4- Attach a Data Disk to the VM
 
 Add an Azure Disk to the created Virtual Machine.
@@ -36,9 +43,12 @@ Add an Azure Disk to the created Virtual Machine.
 ![vm4](https://github.com/user-attachments/assets/3175fb20-2642-4930-bede-30f5b3d11b0a)
 ![vm5](https://github.com/user-attachments/assets/897bb0da-5b4a-4b66-93e2-8feaf47a011c)
 ![vm6](https://github.com/user-attachments/assets/e4f03a58-8883-4f67-9ba0-faa395075af0)
-In Progress
+*In Progress
+
 ![vminprogress](https://github.com/user-attachments/assets/59c8aa54-8467-485d-93ce-676035634bd4)
 ![vmcomplete](https://github.com/user-attachments/assets/eceb6b81-e3c4-4d04-906c-842322a5e925)
+
+---------------------------------------------------------------------------------------------------------
 5- Connect to the VM
 
 Use Remote Desktop Protocol (RDP) to connect to the VM using the public IP.
