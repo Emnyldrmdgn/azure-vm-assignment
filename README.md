@@ -1,4 +1,4 @@
-# azure-vm-assignment
+# Azure-VM-assignment
 # Assignment: Set Up an Azure Virtual Machine 
 
 * Objective
