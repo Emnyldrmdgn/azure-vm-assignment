@@ -1,7 +1,7 @@
 # azure-vm-assignment
-#Assignment: Set Up an Azure Virtual Machine 
+# Assignment: Set Up an Azure Virtual Machine 
 
-*Objective
+* Objective
 
 Create a basic Azure infrastructure using a free Azure account. This infrastructure should include:
 
@@ -10,14 +10,14 @@ Create a basic Azure infrastructure using a free Azure account. This infrastruct
 *A Virtual Network with a default subnet
 *An Azure Disk attached to the VM
 *All resources grouped under a single Resource Group
-#Steps to Complete
+# Steps to Complete
 
-1- Create a Resource Group
+# 1- Create a Resource Group
 Use the Azure Portal to create a new Resource Group.
 ![resource1](https://github.com/user-attachments/assets/cb6331c1-73b1-4da8-bfb7-1cbc3056272f)
 
 ---------------------------------------------------------------------------------------------------------------
-2- Set Up a Virtual Network
+# 2- Set Up a Virtual Network
 
 Create a Virtual Network with a default subnet.
 ![vnetwork1](https://github.com/user-attachments/assets/3bb62a0e-27cd-42bd-b98e-3ede671db422)
@@ -27,13 +27,13 @@ Create a Virtual Network with a default subnet.
 ![vnetwork5](https://github.com/user-attachments/assets/4e80911e-02e1-4205-b435-fccad7d5c22f)
 
 ---------------------------------------------------------------------------------------------------------------
-3- Deploy a Windows Virtual Machine
+# 3- Deploy a Windows Virtual Machine
 
 Choose a free-tier eligible Windows Server.
 Assign a Public IP for RDP access.
 Place the VM in the previously created Virtual Network.
 
-4- Attach a Data Disk to the VM
+# 4- Attach a Data Disk to the VM
 
 Add an Azure Disk to the created Virtual Machine.
 
@@ -49,7 +49,7 @@ Add an Azure Disk to the created Virtual Machine.
 ![vmcomplete](https://github.com/user-attachments/assets/eceb6b81-e3c4-4d04-906c-842322a5e925)
 
 ---------------------------------------------------------------------------------------------------------
-5- Connect to the VM
+# 5- Connect to the VM
 
 Use Remote Desktop Protocol (RDP) to connect to the VM using the public IP.
 
@@ -57,11 +57,11 @@ Use Remote Desktop Protocol (RDP) to connect to the VM using the public IP.
 ![rdpindir](https://github.com/user-attachments/assets/9eae2544-18a0-424b-899d-c396062c5d0d)
 ![vmconnecting](https://github.com/user-attachments/assets/68d5ec74-3cd5-4d2a-9826-120a0db4cf86)
 
-->My Virtual machine
+# ->My Virtual machine
 ![Capture](https://github.com/user-attachments/assets/3e324660-ece5-4278-a625-6280ce9812d4)
 ![Capture2](https://github.com/user-attachments/assets/4b0bdaa3-3345-4a3a-bc79-34c3fe75a6a3)
 
-6- Optional: Clean Up Resources
+# 6- Optional: Clean Up Resources
 
 Delete the Resource Group after completion to avoid unnecessary charges.
 
@@ -70,3 +70,12 @@ Delete the Resource Group after completion to avoid unnecessary charges.
 1. **Azure Portal** → "Resource Groups"
 2. Select `MyResourceGroupc12`.
 3. Click the "Delete Resource Group" button.
+
+# 📌 Result
+After completing these steps,
+
+✅ **Azure VM (Windows Server) installed**
+✅ **Public IP assigned for RDP**
+✅ **Virtual Network created with default subnet**
+✅ **Azure Disk added (optional)**
+✅ **Resources organized under a single Resource Group**
